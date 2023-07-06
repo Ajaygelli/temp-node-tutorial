@@ -1,0 +1,3 @@
+The contents in the files are 
+ 1st one follows as -- Hi there this is first text file 
+ 2nd one follows as -- Hi there this is SECOND text file
