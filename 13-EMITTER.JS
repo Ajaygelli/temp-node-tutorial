@@ -28,3 +28,10 @@ customEmitter.emit('hmm')
 
 // $ git remote remove origin  //to remove git
 
+
+//do it every time
+// $ git add .  //add changes
+// $ git commit -m ok //commit them
+// $ git push //push from local repositry to online
+
+
