@@ -18,3 +18,13 @@ customEmitter.emit('hmm')
 
 
 //its always the event should listen first then emit it
+
+
+
+// $ git remote -v
+// $ git remote add origin https://github.com/Ajaygelli/temp-node-tutorial.git
+// $ git push -u origin main
+
+
+// $ git remote remove origin  //to remove git
+
