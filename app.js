@@ -1,10 +1,8 @@
+const {createReadStream} = require('fs')
 
-const Eventemitter= require('events');
-//Lets take the module i mean import it.
-const customEmitter= new Eventemitter()
+const stream = createReadStream('./content/newBigfile.txt');
 
-customEmitter.on('response',()=>{
-    console.log('data recieved');
+
+stream.on('data',(result)=>{
+    console.log(result)
 })
-
-customEmitter.emit('response')
